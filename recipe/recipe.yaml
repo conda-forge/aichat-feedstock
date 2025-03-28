@@ -1,6 +1,6 @@
 context:
   name: aichat
-  version: "0.28.0"
+  version: "0.29.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/sigoden/aichat/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: c7a47548eadd59206e3ba67e5c0219dea9b76042d057032487f9a9c0a4133cba
+  sha256: 0b586419ce4e29e02eb165e0ab668e0661fac305840348467ab5f45e42551a5a
 
 build:
   number: 0
